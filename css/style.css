@@ -234,6 +234,7 @@ body {
     overflow: hidden;
     margin: 0 auto;
     opacity: 0.5;
+    transition: 1s;
 }
 
 .testimonial .client-name {
@@ -440,11 +441,11 @@ footer .footer-content p {
     }
 
     .desktop-nav .navbar-brand {
-        /* margin-left: 100px; */
+        margin-left: 100px;
     }
 
     .desktop-nav ul {
-        /* margin-right: 80px; */
+        margin-right: 80px;
     }
 
     .desktop-nav ul li {
@@ -467,6 +468,19 @@ footer .footer-content p {
 
     .jumbotron .btn {
         font-size: 25px;
+    }
+
+    .testimonial .client-active {
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    .testimonial .client-active:hover {
+        opacity: 0.5;
+    }
+
+    .testimonial .client-photos .of:hover {
+        opacity: 1;
     }
 
     .service .seo-onpage .img-wrapper {
