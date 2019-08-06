@@ -1,0 +1,490 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FBFBFB;
+    font-family: 'Work Sans';
+    color: #707070;
+    background: #ffffff;
+    width: 100%;
+}
+
+#wrapper {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+/* Navbar  */
+
+.mobile-nav {
+    background: #034A6A;
+
+}
+
+
+
+.mobile-nav button {
+    border: 1px solid white !important;
+    cursor: pointer;
+}
+
+
+.mobile-nav ul li a {
+    color: white !important;
+    text-align: left;
+}
+
+.mobile-nav ul li a:hover {
+    color: rgb(214, 214, 214) !important;
+    text-align: left;
+
+}
+
+.mobile-nav ul li .btn {
+    display: block;
+    width: 100%;
+    background: white;
+    text-align: center;
+    color: #034A6A !important;
+    border-radius: 30px;
+}
+
+.mobile-nav ul li .btn:hover {
+    display: block;
+    width: 100%;
+    background: rgb(218, 218, 218);
+    text-align: center;
+    color: #034A6A !important;
+    border-radius: 30px;
+}
+
+/* Navbar Ends */
+
+/* Headline */
+.jumbotron {
+    margin-top: 30px;
+    background: url(../img/header.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 300px;
+
+}
+
+.jumbotron h1 {
+    font-family: 'Viga';
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.jumbotron .lead {
+    font-size: 23px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+.jumbotron .btn {
+    background: #034A6A;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+
+}
+
+.jumbotron .btn:hover {
+    background: rgb(4, 88, 128);
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/* Headline Ends */
+
+
+/* Reason  */
+.reason {
+    text-align: center;
+    color: #034A6A;
+
+}
+
+.reason .reason-title h2 {
+    font-family: 'Viga';
+}
+
+.reason .three-items .quality {
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.reason .three-items .desc {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* Reason Ends */
+
+/* Problem */
+.problem {
+    text-align: center;
+    color: #034A6A;
+}
+
+/* Problem Ends */
+
+/* service */
+.service {
+    text-align: center;
+    color: #034A6A;
+}
+
+.service h2 {
+    margin-top: 20px;
+    font-family: 'Viga';
+}
+
+.service .seo-onpage .content .title {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    background: #034A6A;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    transform: translateY(-20px);
+    padding: 5px 3px;
+
+}
+
+.service .seo-onpage .content .content-service {
+    font-size: 15px;
+}
+
+
+.service .seo-ofpage .content .title {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    background: #034A6A;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    transform: translateY(-20px);
+    padding: 5px 3px;
+}
+
+.service .seo-ofpage .content .content-service {
+    font-size: 15px;
+}
+
+/* service ends */
+
+
+/* Testimonials */
+.testimonial {
+    text-align: center;
+    color: #034A6A;
+}
+
+.testimonial h2 {
+    font-family: 'Viga';
+}
+
+.testimonial .client-photos {
+    margin: 0 auto;
+}
+
+.testimonial .client-photos .client-active {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.testimonial .client-photos .on {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.testimonial .client-photos .client-inactive {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.testimonial .client-photos .of {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.testimonial .client-name {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonial .client-said {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* Testimonials ends */
+
+/* Contact */
+
+.contact {
+    text-align: center;
+
+}
+
+.contact .jumbotron {
+    background: url(../img/contact.jpg) no-repeat;
+    color: #034A6A;
+    background-size: cover;
+    height: 650px;
+
+
+}
+
+.contact .jumbotron .btn {
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+
+.contact h2 {
+    font-family: 'Viga';
+}
+
+.contact .contact-box form {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Contact ends */
+
+/* subscribe */
+
+
+.subscribe {
+    color: #034A6A;
+    text-align: center;
+}
+
+.subscribe h2 {
+    font-family: 'Viga';
+}
+
+.subscribe form {
+    margin-bottom: 20px;
+}
+
+.subscribe form .text-muted {
+    color: #034A6A !important;
+}
+
+.subscribe form .btn {
+    background: #034A6A;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.subscribe form .btn:hover {
+    background: rgb(4, 88, 128);
+
+}
+
+/* subscribe ends */
+
+/* Footer */
+footer {
+    background: #034A6A;
+    color: #ffffff;
+
+
+}
+
+footer .footer-content {
+
+    text-align: center;
+    padding: 10px;
+}
+
+footer .footer-content p {
+    margin-top: 15px;
+}
+
+/* Footer ends */
+
+/* Tablet Version */
+@media (min-width: 768px) {
+    .navbar {
+        width: 100%;
+
+    }
+
+    .jumbotron {
+        height: 400px;
+        text-align: center;
+    }
+
+    .jumbotron h1 {
+        font-size: 45px;
+        margin-top: 100px;
+    }
+
+    .jumbotron .lead {
+        font-size: 30px;
+    }
+
+    .service .seo-onpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 30px;
+        text-align: left
+    }
+
+    .service .seo-onpage .content {
+        transform: translateX(-40px) translateY(60px);
+    }
+
+    .service .seo-onpage .content .content-service {
+        background: #ffffff;
+        padding: 3px;
+        text-align: left;
+        margin-left: 24px;
+    }
+
+    .service .seo-ofpage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto 30px;
+
+    }
+
+    .service .seo-ofpage .img-wrapper {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .service .seo-ofpage .content {
+
+        grid-row: 1;
+        grid-column: 1;
+        transform: translateX(40px) translateY(60px);
+
+        text-align: right;
+
+    }
+
+
+
+    .service .seo-ofpage .content .content-service {
+        background: #ffffff;
+        text-align: right;
+        margin-right: 20px;
+        padding: 3px;
+    }
+
+    .contact .jumbotron {
+        height: 480px;
+    }
+
+    .contact .more-info {
+        font-size: 20px;
+        margin: 20px auto;
+        font-style: italic;
+    }
+
+    .subscribe .sub-title {
+        font-style: italic !important;
+        font-weight: 300;
+    }
+
+    .subscribe form {
+        text-align: left;
+    }
+
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .desktop-nav {
+        background: rgba(65, 96, 111, 0);
+        transition: 0.5s;
+        width: 100%;
+    }
+
+
+
+    .scrolled {
+        background: #034A6A;
+        transition: 0.5s ease-out;
+    }
+
+    .desktop-nav .navbar-brand {
+        /* margin-left: 100px; */
+    }
+
+    .desktop-nav ul {
+        /* margin-right: 80px; */
+    }
+
+    .desktop-nav ul li {
+        margin-right: 25px;
+    }
+
+    .jumbotron {
+        margin-top: -20px;
+        height: 500px;
+        background-size: cover 100px !important;
+    }
+
+    .jumbotron h1 {
+        font-size: 70px;
+    }
+
+    .jumbotron .lead {
+        font-size: 40px;
+    }
+
+    .jumbotron .btn {
+        font-size: 25px;
+    }
+
+    .service .seo-onpage .img-wrapper {
+        justify-self: end;
+    }
+
+
+
+    .service .seo-ofpage .img-wrapper {
+        justify-self: start;
+    }
+
+    .contact .jumbotron .btn {
+        font-size: 15px;
+    }
+
+    .contact .jumbotron {
+        background-size: cover;
+        background-position: center;
+    }
+}
